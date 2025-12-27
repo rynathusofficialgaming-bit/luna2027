@@ -13,7 +13,7 @@ export const siteConfig = {
   },
 
   alert: {
-    enabled: true,
+    enabled: false,
     message: "🎉 Special Offer! Get 10% off on all purchases use code XMASGIFT2025 at checkout!",
     link: "" // Optional: "https://your-link.com"
   },
@@ -51,7 +51,7 @@ export const siteConfig = {
   },
   
   purchase: {
-    inStock: true,
+    inStock: false,
     pricePerToken: 0.17,
     outOfStockMessage: "Currently out of stock. Please check back later!",
     inStockMessage: "Email Verified Tokens available now!"
