@@ -62,10 +62,10 @@ export const siteConfig = {
     message: "",
     services: [
       { name: "LUNA V9", status: "operational" },
-      { name: "LUNA JOINER", status: "operational" },
+      { name: "LUNA JOINER", status: "down" },
       { name: "Dashboard", status: "operational" },
       { name: "API", status: "operational" },
-      { name: "VC CRASHER", status: "operational" },
+      { name: "VC CRASHER", status: "down" },
       { name: "Payment Processing", status: "operational" }
     ]
   },
